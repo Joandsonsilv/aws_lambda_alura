@@ -36,5 +36,5 @@ jobs:
           memory_size: 128
           timeout: 10
           handler: lambda_fuctions.lambda_handler
-          role: arn:aws:logs:us-east-2:136492549979:log-group:/aws/lambda/PrimeiraFuncao:*
+          role: arn:aws:iam::136492549979:role/service-role/PrimeiraFuncao-role-gc5ppwco
           runtime: python3.12
